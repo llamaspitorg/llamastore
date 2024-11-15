@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #668DB9;
+    --primary-color-hover: #4b698b;
+    --border-color: #ccc;
+    --text-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    border: 1px solid var(--border-color);
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.login-form label {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.divider {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 1rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.divider span {
+    flex-grow: 1;
+    border-bottom: 2px solid var(--text-color);  /* Adding a solid line */
+    margin: 0 10px;  /* Adds space between the line and the OR text */
+}
+
+.divider p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    background: #f1f1f1;  /* Same background color as the form */
+    color: var(--text-color);
+}
+
+#googlebtn {
+    background-color: #DB4437 !important;
+    font-size: 1rem;
+}
+
+.login-form p {
+    margin-top: 1rem;
+    text-align: left;
+    color: var(--text-color);
+}
+
+.error {
+    word-wrap: break-word;
+    color: white;
+    background-color: #DB4437;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}

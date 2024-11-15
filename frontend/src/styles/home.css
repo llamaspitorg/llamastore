@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    margin-top: -20%;
+    height: 100vh;
+    position: relative;
+}
+
+.first h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.first p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.second {
+    margin-top: 10%;
+    height: 100vh;
+    position: relative;
+}
+
+.second h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.second p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    animation: bounce 2s infinite;
+    font-size: 2rem;
+}
+
+/* make arrow bounce up and down until I scroll and then make it disappear */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}

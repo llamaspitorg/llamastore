@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.clientareabtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clientareabtn {
+    margin: 0 10px;
+    padding: 30px 120px;
+    font-size: 1.2rem;
+    border: 3px solid #668DB9;
+    border-radius: 5px;
+    background-color: #252424;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clientareabtn:hover {
+    background-color: #1d1c1c;
+}
+
+.active {
+    background-color: #668DB9 !important;
+}
+
+.clientareabtn p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.clientareacontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.clientareadownloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.clientareadownloads p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.clientareapayments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.clientareapayments p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableinner {
+    border: 5px solid #668DB9;
+}
+
+.tableinner table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableinner table thead {
+    background-color: #252424;
+    color: white;
+}
+
+.tableinner table thead tr {
+    border-bottom: 1px solid #668DB9;
+}
+
+.tableinner table thead tr th {
+    padding: 10px;
+}
+
+.tableinner table tbody {
+    background-color: #1d1c1c;
+    color: white;
+}
+
+.tableinner table tbody tr {
+    border-bottom: 1px solid #668DB9;
+}
+
+.tableinner table tbody tr td {
+    padding: 10px;
+}
